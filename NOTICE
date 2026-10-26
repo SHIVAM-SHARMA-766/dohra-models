@@ -1,0 +1,8 @@
+ggml-hindi2hinglish-apex-q5_0.bin is a format conversion and quantization of
+Oriserve/Whisper-Hindi2Hinglish-Apex (https://huggingface.co/Oriserve/Whisper-Hindi2Hinglish-Apex),
+licensed under the Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0).
+The weights were converted to whisper.cpp's ggml format and quantized to q5_0; they were not
+otherwise modified.
+
+convert-hf-whisper.py follows whisper.cpp's models/convert-h5-to-ggml.py (MIT License,
+Copyright (c) 2023-2024 The ggml authors).
